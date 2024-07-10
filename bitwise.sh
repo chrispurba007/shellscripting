@@ -1,29 +1,29 @@
 #!/bin/bash
 
-# Define two numbers for bitwise operations
-x=5  # binary: 0101
-y=3  # binary: 0011
+# Mendefinisikan dua angka untuk operasi bitwise
+x=5  # dalam biner: 0101
+y=3  # dalam biner: 0011
 
-# Bitwise AND
-result=$(( x & y ))
-echo "$x & $y = $result"  # Output: 1 (binary: 0001)
+# Operasi Bitwise AND
+hasil_and=$(( x & y ))
+echo "$x & $y = $hasil_and"  # Output: 1 (dalam biner: 0001)
 
-# Bitwise OR
-result=$(( x | y ))
-echo "$x | $y = $result"  # Output: 7 (binary: 0111)
+# Operasi Bitwise OR
+hasil_or=$(( x | y ))
+echo "$x | $y = $hasil_or"  # Output: 7 (dalam biner: 0111)
 
-# Bitwise XOR
-result=$(( x ^ y ))
-echo "$x ^ $y = $result"  # Output: 6 (binary: 0110)
+# Operasi Bitwise XOR
+hasil_xor=$(( x ^ y ))
+echo "$x ^ $y = $hasil_xor"  # Output: 6 (dalam biner: 0110)
 
-# Bitwise NOT (complement)
-result=$(( ~x ))
-echo "~$x = $result"  # Output: -6 (two's complement binary representation)
+# Operasi Bitwise NOT (komplemen)
+hasil_not=$(( ~x ))
+echo "~$x = $hasil_not"  # Output: -6 (representasi biner dalam dua komplen)
 
-# Left shift
-result=$(( x << 2 ))
-echo "$x << 2 = $result"  # Output: 20 (binary: 10100)
+# Left shift (geser kiri)
+hasil_left_shift=$(( x << 2 ))
+echo "$x << 2 = $hasil_left_shift"  # Output: 20 (dalam biner: 10100)
 
-# Right shift
-result=$(( x >> 2 ))
-echo "$x >> 2 = $result"  # Output: 1 (binary: 0001)
+# Right shift (geser kanan)
+hasil_right_shift=$(( x >> 2 ))
+echo "$x >> 2 = $hasil_right_shift"  # Output: 1 (dalam biner: 0001)
