@@ -1,0 +1,5 @@
+distro-info==1.1+Ubuntu0.2
+python-apt==2.4.0+Ubuntu3
+python-debian==0.1.43+Ubuntu1.1
+Ubuntu-advantage-tools==8001
+Ubuntu-drivers-common==0.0.0

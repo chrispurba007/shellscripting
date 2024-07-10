@@ -1,0 +1,1 @@
+Jumlah kemunculan kata 'Indonesia' adalah: 3

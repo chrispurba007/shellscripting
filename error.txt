@@ -1,0 +1,6 @@
+./test.sh: line 3: syntax error near unexpected token `then'
+./test.sh: line 3: `if[ "$USER" == "chrizz" ]; then'
+./test.sh: line 3: syntax error near unexpected token `then'
+./test.sh: line 3: `if[ "$USER" == "chrizz" ]; then'
+./test2.sh: 4: b: not found
+./test2.sh: 9: arithmetic expression: division by zero: "a/b"
